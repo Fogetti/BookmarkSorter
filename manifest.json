@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+
+  "name": "Bookmark sorter",
+  "description": "This extension will sort the bookmarks and merge the duplicates.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "media/if-sort-amount-asc-16.png",
+      "20": "media/if-sort-amount-asc-20.png",
+      "24": "media/if-sort-amount-asc-24.png",
+      "32": "media/if-sort-amount-asc-32.png",
+      "48": "media/if-sort-amount-asc-48.png",
+      "64": "media/if-sort-amount-asc-64.png",
+      "128": "media/if-sort-amount-asc-128.png",
+      "256": "media/if-sort-amount-asc-256.png"
+    },
+    "default_popup": "src/bookmarks.html",
+    "default_title": "Click here to sort the bookmarks alphabetically!"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "bookmarks"
+  ]
+}
