@@ -1,10 +1,13 @@
 {
   "manifest_version": 2,
-  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "content_security_policy": "default-src 'sha256-rJJyMDPmHMZS0mPmL877gjjApxGMVa4522UDb4ctw7I=' 'sha256-+Rgwk0dJ8JECVuHVSfV3z6qotMPU/SmM39dcWGLY6/4=' 'sha256-0JiDIt71XLrxd4lOa14gcPwz7/9FHv3gbnoO+Xj28Fo=' 'sha256-RF0aJ8XACsxAuWhi7s/R8ySc47fDgHKEXGMVYQr4zHw=' 'sha256-pCjaeeoRHfj1l9pDEFpwU/Tvob8+XSiI/bgP4F/gDJQ=' 'sha256-9sF/QjiJD+LKJTepN4Dv2/ldRkSQukL3MFX5bhqm/IM=' 'sha256-1/weS9GSX6S5G2HRe2hMDzX7GkjnZEiM8mShlHOvjII=' 'sha256-KhfJHp7vVTZRdt4OObb7ihWKkkYgjLCUDymsEQJzXGs=' 'sha256-JRmKuBX7hZyL3dHxtYxPvP1fewlCJegjoiCrTJ/KGP4=' 'sha256-/OspMGOVwGsFEVBCZKsfePJJrCCVTu/4I+xH3P84hDo=' 'sha256-n+/XCX6pT1illB37mHO4z53YEDg+5f1F7KR4qRXEBys=' 'sha256-C2qs6b3RMI8LSxmyTN4Mt+iYCx8sAzddUY0b4dal9h8=' 'sha256-+d+1w9z0fTl4WpUd+Wdzffopay6k1mrkkJ11MXaLRPg=' 'sha256-Jw0RW0L0GS6wTr5cnaTUML8CdiyASEBtDVTrFIesNMs=' 'sha256-Jr6go02VlB8ijRojrNc3P1JFqOR93NWv6NRv3clhbWs=' 'sha256-obeE4Cva8WVnyi8NThLhx0+GAdSfw6wRZ0DzqqAfFnE=' 'sha256-fI1RrMb0QDxq5e7tMtIgu0dA+D7Nx0f3ehvfxOayW9w=' 'sha256-1+dYFkVVpoQ/JnfAcJe/iNFpNuki2avE5X3/Jq1MzIc=' 'sha256-p/dNJx8rPTO9TgU3dBOWlQ0ODsJLX379qli943rbVD4=' 'sha256-QaOF1exuBgzuiOeeN0MdLRdr5CoVQdAK1koJHNbDhTY=' 'sha256-hrYzJAqbh2Vt4lUQEh6bQoyNZ+oBguFTv/VRQm7t0Dc=' 'sha256-UqeC0HcQYEoSj5485GFy06US6PH9YD/fhI+/qGt/Tsc=' 'sha256-snW2MHyBlBHzUALd47HK7ff4bkgd3npz50vqpqX4qWg=' 'sha256-+F5aiVuZBdM5knkOc8KCj5LviotSTy4HHc6sVWPgLJw=' 'sha256-25+ig1xsw2MuKdsFMNsltaYAnbYyop71WDAAFk+Be3I=' 'sha256-jaG6IRWS251W7nrXF2Kz2gGzSX7/0FnOo2mu3XQiGhU=' 'sha256-/aw3uTRItUrLa139iXhAtQd2ijhddhLoHXrbHR5etEY=' 'sha256-kxfqrxxBg1QYstVT+Rs0iF864MgbVqvr4TrGoDJBcWo=' 'sha256-wCoymwKlCo7lCBcmjT3AMSZ4yBQ9FIgwRX31lcAXHc0=' 'sha256-Sw5gDswJ8aYeknsUFEidAdQo8Cbb22d9S13YrAKjgqE=' 'sha256-R969Bdourxl09i2zhleBaOuE9hlfkcXPQ17+IQYcca8=' 'sha256-JJER/tCg2pUVLokGiXh/Q494kU4lbbEiX8G3Dm9jK3A=' 'sha256-aRSbZfelsfB7yKhbh1FFKlAp+v8iYBSOWvs6UcBpYgA=' 'sha256-bgJayelIj5lGYfjN5P5iiPvQzvL/91cKgKWJN8vD76k=' 'sha256-pYYSU3vlDrAR8D4rsYnzOKgXb+7wSwJgIdXewMkTv10=' 'sha256-826TmOlOAXf+ZMfNmfA1GOHAgP+mo8u6ralmRKE+Mak=' 'sha256-2akHIurjGcvzc40RL/FLCtDm+wvLrslUESYgk5k4588=' 'sha256-6kYZafVLxVngLMtTF9HQKf9xIA7hWI+hFVRw2D+ieCE=' 'sha256-gVgVsEJ9bw4/5GqgGWqmwu5ej+kdr4Ahl0BpYhSnPPI=' 'sha256-hwtLWTXVWF2riTeXQtdcLnoPj5PxjIz5eA/caIYsCao=' 'sha256-Qja8Gg0re1K5icTUipC1cNz8eiYYcA8S0+DPNM7XKko=' 'sha256-vElaitey4l5EZ3yjFlKu1v/mhi1+0YHdWXApDjaLyrM=' 'sha256-bA5MLQrysQqlnWr7I+SHmBtvyIxxYJuqNvGB+tbnDIw=' 'sha256-JTdcPmZaVGJiQWCTYxp4de988aZgH9d2mbaORZhpTcs=' 'sha256-nz5B0r2RSAi437OMFKmmCekfDTOMXhtklImLUjQz7g8=' 'sha256-St89ZhL6c4SVUtPv0klzb742j96MBHeyAcofrgWwnn0=' 'sha256-egtdl7iZdHzextaBrO7COHTHD/lQTqm6p+VQpULtAlU=' 'sha256-L1OirxAgt4/k8PH6ZURdl2xDQMTKejeU3dTOMJLW/GY=' 'sha256-w3mozJ4PPJJ19BK9CIratkWAJktdUXByLTf+2wRe1Y4=' 'sha256-97/BEFOfIQxCdJFcq+Hu9SzFJH3seDBjTj+M9VCRTD0=' 'sha256-0iKuIDAWxvvDIH71dDGdGUl3SyyhpAwB4RIf4knx6h8=' 'sha256-f7EDoA5pCVmX1rF3b+iZOFMnWCAUnTnbk70ANtSYnpw=' 'sha256-rLELNSAQ/s8oMFm7iKremKJdPf/kSa/ApPtLHOj0yAo=' 'sha256-Z3xocal7JiiU/6Og/+q4k2f+i82b8R1IooYJ7nX5AxY=' 'sha256-VW4oilD7QNn6rH+sWLOuO0VU2ogvgzqIj2xxupFmngk=' 'sha256-iABgvAV544YhYJU3dXbxFhxfB3Wuv51RRAQaYqijJg0=' 'sha256-tMtu97CpXDWK7N6M8m0MaWtzKRwRTEBhzKmPQNExrIg=' 'sha256-vyZuGcK1akIhwANf7jLclQujC5niAr+oaFd3vPha2sY=' 'sha256-GW5KVGVlYccpKOhJpGeGyeo5onZ+NU6ihk1zK4YtVXY=' 'sha256-bNONH9oBY+zgVaROvtSIb5EzKzSs3fHeQESXYWz7cNQ='",
 
   "name": "Bookmark sorter",
   "description": "This extension will sort the bookmarks and merge the duplicates.",
   "version": "1.0",
+  "short_name": "BookmarkSorter",
+  "start_url": "/",
+  "display": "standalone",
 
   "browser_action": {
     "default_icon": {
@@ -17,7 +20,7 @@
       "128": "media/if-sort-amount-asc-128.png",
       "256": "media/if-sort-amount-asc-256.png"
     },
-    "default_popup": "src/bookmarks.html",
+    "default_popup": "index.html",
     "default_title": "Click here to sort the bookmarks alphabetically!"
   },
   "permissions": [
