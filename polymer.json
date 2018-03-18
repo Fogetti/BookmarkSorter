@@ -1,0 +1,23 @@
+{
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  },
+  "build": [
+    {
+      "name": "default",
+      "bundle": {
+        "inlineCss": false,
+        "inlineScripts": false
+      }
+    }
+  ],
+  "sources": [
+    "media/**/*",
+    "src/**/*",
+    "manifest.json",
+    "bower.json"
+  ],
+  "autoBasePath": true
+}
